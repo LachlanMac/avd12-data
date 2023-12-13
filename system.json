@@ -1,0 +1,83 @@
+{
+  "description": "Anyventure D12 system for FoundryVTT",
+  "esmodules": [
+    "modules/avd12-main.js"
+  ],
+  "scripts":[
+    "js/lodash.js"
+  ],
+  "gridDistance": 1,
+  "gridUnits": "u",
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
+  "authors": [
+    {
+      "name": "Uberwald",
+      "flags": {}
+    }
+  ],
+  "license": "LICENSE.txt",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11",
+    "maximum": "11"
+  },
+  "id": "fvtt-avd12",
+  "primaryTokenAttribute": "secondary.health",
+  "secondaryTokenAttribute": "secondary.power",
+  "socket": true,
+  "styles": [
+    "styles/simple.css"
+  ],
+  "packs": [
+    {
+      "type": "Item",
+      "label": "Armors",
+      "name": "armors",
+      "path": "packs/armors.db",
+      "system": "fvtt-avd12",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Spells",
+      "name": "spells",
+      "path": "packs/spells.db",
+      "system": "fvtt-avd12",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Weapons",
+      "name": "weapons",
+      "path": "packs/weapons.db",
+      "system": "fvtt-avd12",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Stances",
+      "name": "stances",
+      "path": "packs/stances.db",
+      "system": "fvtt-avd12",
+      "private": false,
+      "flags": {}
+    }
+    
+  ],
+  "title": "AnyVenture D12 RPG",
+  "url": "https://github.com/LachlanMac/fvtt-avd12",
+  "version": "0.9.5",
+  "download": "https://anyventured12.com/res/fvtt-avd12-release-0.9.5.zip",
+  "background": "systems/fvtt-avd12/images/ui/avd12_welcome_page.webp",
+  "manifest": "https://anyventured12.com/res/system.json"
+}
