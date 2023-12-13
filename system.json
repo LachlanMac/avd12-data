@@ -2,7 +2,7 @@
   "id": "fvtt-avd12",
   "title": "AnyVenture D12 RPG",
   "description": "Anyventure D12 system for FoundryVTT",
-  "version": "10.0.25",
+  "version": "11.1.0",
   "compatibility": {
     "minimum": "11",
     "verified": "11",
